@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 
 
@@ -6,20 +6,19 @@ class StorePicker extends React.Component {
 
     render() {
         return (
-            <Fragment>
-                <p>Fish!</p>
-                <form classname="store-selector">
-                    <h2>Please Enter A Store</h2>
-                </form>
 
-            </Fragment>
+
+            <form classname="store-selector">
+
+        
+        {/*This is how you comment in React. You use curly braces */}
+                <h2>Please Enter A Store</h2>
+            </form>
+
+
 
         )
-
-
-
     }
-
 }
 
 export default StorePicker;
